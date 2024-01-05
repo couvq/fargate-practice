@@ -1,7 +1,7 @@
 ### Docker commands
 1. Build image
 ```
-docker build --build-arg JAR_FILE=target/fargate-practice-0.0.1-SNAPSHOT.jar -t fargate-practice .
+docker build --platform="linux/amd64" --build-arg JAR_FILE=target/fargate-practice-0.0.1-SNAPSHOT.jar -t fargate-practice .
 ```
 2. View images
 ```
